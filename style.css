@@ -3,7 +3,10 @@
 /* Common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: white    
+    background-color: white;
+    border-left: 200px;
+    border-right: 200px;    
+    
 }
 
 /* navber style */
@@ -57,5 +60,31 @@ header{
      background-image: url(./images/Circle\ design.svg);
      margin-top: 30px;
  }
-     
+ .btn{
+     color: white;
+     font-weight: 700;
+     width: 196px;
+     height: 44px;
+     padding: 10px 24px;
+     border-radius: 41px;
+     background-color: #E02C6D;
+ }
+ .btn a{
+     padding-left: 10px;
+     color: white;
+ }
+.e-commerce-section {
+    width: 1110px;
+    height: 110px;
+    border:  2px solid white;
+    margin-top: 20px;
+}
+ .e-commerce-logos {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+.e-commerce-logos img{
+    padding-right: 30px;
+}
  
